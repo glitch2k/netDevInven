@@ -1,0 +1,31 @@
+---
+
+
+- name: PLAY 01 --- FIND VUL ON DEVICES
+  hosts: HER-IOSdevices
+  connection: network_cli
+  # serial: 1
+  gather_facts: no
+
+  # vars:
+  #   pattern: aaa new-model
+  tasks:
+
+    - name: PLAY 01 --- GET FACTS FROM DEVICE
+      ios_facts:
+        # provider:
+          # username: stison-admin
+          # password: glitchyInTh3@ir
+      ignore_errors: yes 
+      register: results
+          
+
+    - name: GET DEVICE DATA FOR DATA-BASE AND SAVE TO FILE
+      lineinfile:
+        line: "{{ ansible_net_hostname }}  {{ ansible_net_model }}    {{ ansible_net_serialnum }}"
+        path: "{{ playbook_dir }}/dataForNetDevInvenHER"
+        create: yes
+      # with_items: "{{ ansible_net_model | dict2items }}"
+      # when: item.value.operstatus == 'down'
+    # - debug:
+    #      var: ansible_net_model

@@ -1,0 +1,6 @@
+---
+
+
+ansible_network_os: ios 
+ansible_user: stison-admin 
+ansible_ssh_pass: glitchyInTh3@ir
