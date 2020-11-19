@@ -1,0 +1,1 @@
+JIA-COLEFLYER-620-102   {'GigabitEthernet1/0/25': [{'host': 'JIA-AS188-620-1.jaa.aero', 'port': 'TenGigabitEthernet2/1/26'}], 'GigabitEthernet1/0/6': [{'host': 'SEPD0C789D7501D', 'port': 'Port 1'}]}  ['172.19.20.102']

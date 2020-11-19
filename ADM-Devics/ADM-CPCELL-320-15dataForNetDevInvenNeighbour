@@ -1,0 +1,1 @@
+ADM-CPCELL-320-15   {'GigabitEthernet1/8': [{'host': 'ADM-200B-320-1.jaa-aero', 'port': 'TenGigabitEthernet2/1/2'}], 'GigabitEthernet1/9': [{'host': 'Axis Camera', 'port': 'eth0'}], 'GigabitEthernet1/15': [{'host': None, 'port': '78d0.0429.6761'}]}  ['172.16.20.15']

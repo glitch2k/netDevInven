@@ -1,8 +1,8 @@
 ---
 
 
-- name: PLAY 01 --- FIND VUL ON DEVICES
-  hosts: HER-IOSdevices
+- name: PLAY 01 --- GATHER PROPERTIES ON DEVICES
+  hosts: ADM-IOSdevices JIA-IOSdevices
   connection: network_cli
   # serial: 1
   gather_facts: no
@@ -22,8 +22,8 @@
 
     - name: GET DEVICE DATA FOR DATA-BASE AND SAVE TO FILE
       lineinfile:
-        line: "{{ ansible_net_hostname }}  {{ ansible_net_model }}    {{ ansible_net_serialnum }}"
-        path: "{{ playbook_dir }}/dataForNetDevInvenHER"
+        line: "{{ ansible_net_hostname }}   {{ ansible_net_neighbors }}  {{ ansible_net_all_ipv4_addresses }}"
+        path: "{{ playbook_dir }}/{{ ansible_net_hostname }}dataForNetDevInvenNeighbour"
         create: yes
       # with_items: "{{ ansible_net_model | dict2items }}"
       # when: item.value.operstatus == 'down'

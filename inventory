@@ -1,3 +1,12 @@
+[staticTest]
+JIA-AS188-620-1
+
+[staticTest:vars]
+ansible_network_os=ios 
+ansible_user=stison-admin 
+ansible_ssh_pass=glitchyInTh3@ir
+
+
 [ADM-IOSdevices]
 ADM-200B-320-1
 ADM-100B-320-10

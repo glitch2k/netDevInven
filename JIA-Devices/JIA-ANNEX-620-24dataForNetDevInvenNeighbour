@@ -1,0 +1,1 @@
+JIA-ANNEX-620-24   {'GigabitEthernet1/9': [{'host': 'ProMD651S1704006088', 'port': '0050.f9e9.b2f2'}], 'GigabitEthernet1/13': [{'host': 'PAR-DailySurfaceLot-620-AP07', 'port': '0'}], 'GigabitEthernet1/7': [{'host': 'JIA-AS188-620-1.jaa.aero', 'port': 'TenGigabitEthernet1/1/18'}]}  ['172.19.20.24']

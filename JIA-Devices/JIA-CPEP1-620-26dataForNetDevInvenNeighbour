@@ -1,0 +1,1 @@
+JIA-CPEP1-620-26   {'GigabitEthernet1/11': [{'host': 'Axis Camera', 'port': 'eth0'}], 'GigabitEthernet1/9': [{'host': 'Axis Camera', 'port': 'eth0'}], 'GigabitEthernet1/14': [{'host': 'e0cbbc3535a5', 'port': 'Port 0'}], 'GigabitEthernet1/7': [{'host': 'JIA-AS188-620-1.jaa.aero', 'port': 'TenGigabitEthernet1/1/23'}]}  ['172.16.20.33', '172.19.20.26']

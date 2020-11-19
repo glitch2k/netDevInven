@@ -1,0 +1,1 @@
+JIA-VENDORGATE-620-101   {'GigabitEthernet0/9': [{'host': 'JIA-AS188-620-1.jaa.aero', 'port': 'TenGigabitEthernet2/1/25'}], 'GigabitEthernet0/6': [{'host': 'SEPD4AD71BE24D2', 'port': 'Port 1'}]}  ['172.19.20.101']

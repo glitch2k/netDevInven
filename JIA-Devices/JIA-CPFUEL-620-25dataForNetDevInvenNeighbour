@@ -1,0 +1,1 @@
+JIA-CPFUEL-620-25   {'GigabitEthernet1/8': [{'host': 'JIA-AS188-620-1.jaa.aero', 'port': 'TenGigabitEthernet1/1/21'}], 'GigabitEthernet1/14': [{'host': 'Axis Camera', 'port': 'eth0'}]}  ['172.19.20.25']
